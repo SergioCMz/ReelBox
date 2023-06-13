@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Lista de películas y series</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Código del encabezado (menú, barra de búsqueda, inicio de sesión, logo) -->
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <img src="img/perfil.jpeg" alt="Foto de perfil" class="profile-pic">
+        <span class="username">Nombre de usuario</span>
+      </li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="mis-titulos.html">Mis Títulos</a></li>
+      <li><a href="peliculas.html" class="active">Películas</a></li>
+      <li><a href="series.html">Series</a></li>
+      <li class="search-section">
+        <input type="text" placeholder="Buscar..." id="search-bar">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </li>
+      <li><a href="configuracion.html">Configuración</a></li>
+      <li class="logo-section">
+        <img src="img/logo.png" alt="Logo de la página" class="logo">
+      </li>
+    </ul>
+  </nav>
+
+  <main id="peliculas">
+    <!-- Contenido de la página de películas -->
+  </main>
+
+  <h1 class="animated-text">Peliculas</h1>
+    <div class="movie-list">
+      <div class="movie" onclick="showDialog('Jhon Wick: Chapter 3')">
+        <img src="img/pelicula16.jpeg" alt="Película 1" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Jhon Wick: Chapter 3</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Jhon Wick: Chapter 4')">
+        <img src="img/pelicula15.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Jhon Wick: Chapter 4</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Violet Evergarden: the Movie')">
+        <img src="img/pelicula12.jpeg" alt="Película 3" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Violet Evergarden: the Movie</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evil Dead Rise')">
+        <img src="img/pelicula11.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Evil Dead Rise</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Anabelle')">
+        <img src="img/pelicula17.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Anabelle</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Spider-man: No Way Home')">
+        <img src="img/pelicula18.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Spider-man: No Way Home</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula2.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Evangelion: 3.0+1.0 Thrice Upon a Time</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Flash')">
+        <img src="img/pelicula8.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Flash</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('5 centímetros por segundo')">
+        <img src="img/pelicula14.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">5 centímetros por segundo</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Dune')">
+        <img src="img/pelicula23.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Dune</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('The Batman')">
+        <img src="img/pelicula19.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">The Batman</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Blade Runner 2049')">
+        <img src="img/pelicula21.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Blade Runner 2049</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <!-- Agrega más películas aquí -->
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

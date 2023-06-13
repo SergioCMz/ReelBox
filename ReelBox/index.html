@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>ReelBox</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <!-- Código del encabezado (barra de búsqueda, inicio de sesión) -->
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <img src="img/perfil.jpeg" alt="Foto de perfil" class="profile-pic">
+        <span class="username">Nombre de usuario</span>
+      </li>
+      <li><a href="index.html" class="active">Inicio</a></li>
+      <li><a href="mis-titulos.html">Mis Títulos</a></li>
+      <li><a href="peliculas.html">Películas</a></li>
+      <li><a href="series.html">Series</a></li>
+      <li class="search-section">
+        <input type="text" placeholder="Buscar..." id="search-bar">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </li>
+      <li><a href="configuracion.html">Configuración</a></li>
+      <li class="logo-section">
+        <img src="img/logo.png" alt="Logo de la página" class="logo">
+      </li>
+    </ul>
+  </nav>
+
+  <main id="estrenos">
+    <h1 class="animated-text">Estrenos</h1>
+    <div class="movie-list">
+      <div class="movie" onclick="showDialog('Spider-man: Acros the spider-verse')">
+        <img src="img/pelicula1.jpeg" alt="Película 1" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Spider-man: Acros the spider-verse</h3>
+          <p class="movie-synopsis">Segunda entrega de las aventuras de Miles Morales tras el filme de animación ganador del Oscar Spider-Man: Un nuevo universo (2018). Para demostrar lo que vale y transportase a través del Multiverso, el joven Spider-Man de Brooklyn se aliará con Gwen Stacy.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula2.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Evangelion: 3.0+1.0 Thrice Upon a Time</h3>
+          <p class="movie-synopsis">Cuarto y último volumen de La Reconstrucción de Evangelion. Misato y su grupo anti-NERV, Wille, llegan a una París roja por la nucleización. La tripulación de la nave Wunder aterriza en una torre de contención con solo 720 seg para reestablecer la ciudad. Cuando una horda de Evas NERV aparece, la mejorada Unidad Eva 8 debe interceptarlos.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula3.jpeg" alt="Película 3" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Rapidos y Furiosos X</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula4.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Guardianaes de la galaxia</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula5.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Mario Bros: Movie</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula6.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Suzume</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula7.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Transformers</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula8.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Flash</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula9.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Kimetsu no Yaiba – The Movie: Mugen Train</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Evangelion: 3.0+1.0 Thrice Upon a Time')">
+        <img src="img/pelicula10.png" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Jujutsu Kaisen 0</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Bocchi the Rock')">
+        <img src="img/Serie6.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Bocchi the Rock</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Titans')">
+        <img src="img/Serie15.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Titans</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <!-- Agrega más películas aquí -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

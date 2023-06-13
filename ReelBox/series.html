@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>ReelBox</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Código del encabezado (menú, barra de búsqueda, inicio de sesión, logo) -->
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <img src="img/perfil.jpeg" alt="Foto de perfil" class="profile-pic">
+        <span class="username">Nombre de usuario</span>
+      </li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="mis-titulos.html">Mis Títulos</a></li>
+      <li><a href="peliculas.html">Películas</a></li>
+      <li><a href="series.html" class="active">Series</a></li>
+      <li class="search-section">
+        <input type="text" placeholder="Buscar..." id="search-bar">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </li>
+      <li><a href="configuracion.html">Configuración</a></li>
+      <li class="logo-section">
+        <img src="img/logo.png" alt="Logo de la página" class="logo">
+      </li>
+    </ul>
+  </nav>
+
+  <main id="series">
+    <!-- Contenido de la página de series -->
+  <h1 class="animated-text">Series</h1>
+    <div class="movie-list">
+      <div class="movie" onclick="showDialog('Shingeki no Kyojin')">
+        <img src="img/Serie1.jpeg" alt="Serie 1" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Shingeki no Kyojin</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('The Big Bang Theory')">
+        <img src="img/Serie2.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">The Big Bang Theory</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Los Simpsons')">
+        <img src="img/Serie3.jpeg" alt="Película 3" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Los Simpsons</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Cyberpunk Edgerunners')">
+        <img src="img/Serie4.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Cyberpunk Edgerunners</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Cortar por la linea de puntos')">
+        <img src="img/Serie5.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Cortar por la linea de puntos</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Bocchi the Rock')">
+        <img src="img/Serie6.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Bocchi the Rock</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Nier: Automata Ver1.1a')">
+        <img src="img/Serie7.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Nier: Automata Ver1.1a</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Eighty Six')">
+        <img src="img/Serie8.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Eighty Six</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('5 centímetros por segundo')">
+        <img src="img/Serie9.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Game of Thrones</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Dune')">
+        <img src="img/Serie10.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">The Boys</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('The Batman')">
+        <img src="img/Serie13.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Breaking Bad</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <div class="movie" onclick="showDialog('Blade Runner 2049')">
+        <img src="img/Serie12.jpeg" alt="Película 2" class="movie-poster">
+        <div class="movie-info">
+          <h3 class="movie-title">Suits</h3>
+          <p class="movie-synopsis">Sinopsis.</p>
+        </div>
+      </div>
+      <!-- Agrega más películas aquí -->
+    </div>
+
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
